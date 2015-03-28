@@ -1,0 +1,15 @@
+﻿Build started 3/28/2015 8:32:16 AM.
+     1>Project "C:\Users\Rishabh\documents\tegra\Projects\road_signs\road_signs\road_signs.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\x64\vc11\..\..\include /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\\inc" /I"C:\Program Files\OpenNI2\Include\\" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(40): warning C4244: 'initializing' : conversion from 'int64' to 'double', possible loss of data
+     1>Source.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rishabh\documents\tegra\Projects\road_signs\x64\Debug\road_signs.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc11\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\\lib\amd64" /LIBPATH:"C:\Program Files\OpenNI2\Lib\\" /LIBPATH:"C:\downloads\glew-1.12.0-win32\glew-1.12.0\lib\Release\x64" opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib Kinect10.lib OpenNI2.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Rishabh\documents\tegra\Projects\road_signs\x64\Debug\road_signs.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rishabh\documents\tegra\Projects\road_signs\x64\Debug\road_signs.lib" /MACHINE:X64 x64\Debug\Source.obj
+         road_signs.vcxproj -> C:\Users\Rishabh\documents\tegra\Projects\road_signs\x64\Debug\road_signs.exe
+     1>Done Building Project "C:\Users\Rishabh\documents\tegra\Projects\road_signs\road_signs\road_signs.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.59
